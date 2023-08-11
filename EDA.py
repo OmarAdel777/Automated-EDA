@@ -87,7 +87,7 @@ def create_visualizations(data):
     plt.show()  
 
 # Example usage
-file_path = 'D:\International_Report_Departures.CSV'
+file_path = input('D:\International_Report_Departures.CSV')
 data = load_data(file_path)
 preprocessed_data = preprocess_data(data)
 data.head()
